@@ -13,7 +13,11 @@
       "url": "heroku/nodejs"
     }
   ],
-  "scripts": {
-    "postdeploy": "node postdeploy.js"
+  "environments": {
+    "review": {
+      "scripts": {
+        "postdeploy": "node postdeploy.js"
+      }
+    }
   }
 }
