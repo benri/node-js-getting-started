@@ -17,11 +17,13 @@
           "quantity": 1
         }
       }
+    },
+    "review": {
+      "addons": [
+        {
+          "plan": "heroku-postgresql:hobby-dev"
+        }
+      ]
     }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql:hobby-dev"
-    }
-  ]
+  }
 }
