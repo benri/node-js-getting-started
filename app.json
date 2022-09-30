@@ -14,8 +14,7 @@
     "test": {
       "formation": {
         "test": {
-          "quantity": 1,
-          "size": "Free"
+          "quantity": 1
         }
       }
     }
