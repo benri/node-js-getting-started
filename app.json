@@ -9,5 +9,15 @@
     "web": {
       "quantity": 1
     }
+  },
+  "environments": {
+    "test": {
+      "formation": {
+        "test": {
+          "quantity": 1,
+          "size": "Free"
+        }
+      }
+    }
   }
 }
