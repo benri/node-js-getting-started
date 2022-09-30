@@ -7,7 +7,8 @@
   "image": "heroku/nodejs",
   "formation": {
     "web": {
-      "quantity": 1
+      "quantity": 1,
+      "size": "Free"
     }
   },
   "environments": {
@@ -21,7 +22,7 @@
     "review": {
       "addons": [
         {
-          "plan": "heroku-postgresql:hobby-ben"
+          "plan": "heroku-postgresql:hobby-dev"
         }
       ]
     }
