@@ -7,8 +7,7 @@
   "image": "heroku/nodejs",
   "formation": {
     "web": {
-      "quantity": 1,
-      "size": "Free"
+      "quantity": 1
     }
   }
 }
